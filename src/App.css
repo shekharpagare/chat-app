@@ -62,7 +62,7 @@
   border-bottom: 2px solid gray;
 }
 .right-middle {
-  height: 750px;
+  height: 450px;
 }
 .chat-list{
   border-bottom: 2px solid black;
@@ -107,4 +107,16 @@
 .message-container{
   display: inline-block;
   width: inherit
+}
+.send-container{
+  padding: 10px 15px;
+  border: 2px solid gray;
+  border-radius: 30px;
+}
+.send-container input{
+  border-style: none;
+}
+.send-list{
+  display: flex;
+  justify-content: space-between
 }

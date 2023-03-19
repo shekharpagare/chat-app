@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { userMessageArray } from "../../core-helper/constant";
+import SendMessage from "./SendMessage";
 
 const RightMiddle = ({user}) =>{
 
@@ -21,6 +22,9 @@ const RightMiddle = ({user}) =>{
         </div>
         </div>
     })}
+     <div>
+          <SendMessage setMessageList={setMessageList} messageList={messageList}/>
+      </div>
   </>)
 }
 export default RightMiddle;
