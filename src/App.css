@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.left-bar{
+  display: inline-block;
+    width: 25%;
+    height: 800px;
+    border-right: 2px solid grey;
+    float:left;
+    box-sizing: border-box;
+}
+.right-bar{
+  width: 75%;
+  display: inline-block;
+  float: left;
+}
+.left-top{
+  height: 75px;
+  border-bottom: 2px solid gray;
+}
+.left-bottom{
+  height: 750px;
+}
+.right-top{
+  height: 75px;
+  border-bottom: 2px solid gray;
+}
+.right-middle {
+  height: 750px;
+}
+.chat-list{
+  border-bottom: 2px solid black;
+  padding: 10px 15px;
+  height: 60px;
+}
+.chat-Name{
+  display: flex;
+  justify-content: start;
+}
+.profileImg{
+  height: 40px;
+  width: 40px;
+  margin-right: 20px
+}
+.left-top-container{
+  padding: 15px 20px;
+}
+.profile-container{
+  display: flex;
+  padding: 20px 15px;
+}
+.selected-chat{
+  background-color: #cfddef;
+}
+.message {
+  padding: 5px 10px;
+  border: 2px solid gray;
+  border-radius: 60px;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+}
+.sendMessage {
+ float:right;
+ background-color: green;
+}
+.receiveMessage{
+  float: left;
+  background-color: gray;
+}
+.message-container{
+  display: inline-block;
+  width: inherit
+}
